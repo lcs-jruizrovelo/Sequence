@@ -33,6 +33,8 @@ canvas.drawAxes()
 canvas.fillColor = Color.green
 canvas.drawEllipse(centreX: 150, centreY: 250, width: 50, height: 100)
 
+// add a rectangle to the top of the screen
+canvas.drawEllipse(centreX: 150, centreY: 100, width: 50, height: 50)
 
 // This code is necessary to see the result in the Assistant Editor at right
 PlaygroundPage.current.liveView = canvas.imageView
